@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.head {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 70%;
+    background-color: #fff;
+    line-height: 70px;
+    box-shadow: 3px 7px #ECF0F1
+}
+
+nav ul {
+    /*    float: left;*/
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-weight: bold
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    color: #696969;
+}
+
+nav img {
+    float: left;
+  
+    /*    margin-top: 20px;*/
+    /*    margin-bottom: 10px*/
+
+}
+
+.search {
+    margin-left: 170px;
+    position: absolute;
+   /*    float: right*/
+}
+
+.search input {
+    height: 30px;
+    width: 280px;
+    padding-left: 10px;
+    background-color: #F5F5F5
+}
+
+.icons {
+    float: right;
+    margin-right: 30px;
+    /*    margin-top: 15px;*/
+    padding: 10px;
+}
+
+.photo {
+    margin-top: 10px;
+}
+
+.placeicon {
+    font-family: fontawesome;
+}
+
+
+/*Account Page*/
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff, #d6d6);
+   
+}
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    overflow: hidden;
+    
+}
+img{
+    float: left;
+  
+        
+}
+
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display:inline-block;
+    
+}
+
+.form-btn{
+    display: inline-block
+}
+
+.form-container form {
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top:130px;
+    transition: transform 1s;
+    
+}
+
+form input{
+    width: 70%;
+    height:30px;
+    margin:05px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    
+}
+
+form .btn{
+    width: 250px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    background: #ff523b;
+    border-radius: 50px;
+    height: 30px;
+    
+}
+form .btn focus{
+    outline: none;
+}
+
+#loginForm{
+    left: -320px
+}
+#signupForm{
+    left: 0;
+    
+}
+
+form  a {
+    
+    font-size: 15px;
+    color:red
+}
+#indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(130px);
+    transition: transform 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
